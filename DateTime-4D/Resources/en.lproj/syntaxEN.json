@@ -1,0 +1,412 @@
+{
+	"_method_": {},
+	"cs.DateTimeUtils": {
+		"DateTime": {
+			"new()": {
+				"Syntax": "**.new**( *date* : Date; *time* : Time; *timeZone* : cs.DateTimeUtils.TimeZone )",
+				"Params": [
+					[
+						"date",
+						"Date",
+						"->"
+					],
+					[
+						"time",
+						"Time",
+						"->"
+					],
+					[
+						"timeZone",
+						"cs.DateTimeUtils.TimeZone",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"TimeZone": {
+			"new()": {
+				"Syntax": "**.new**( *zone* : Text )",
+				"Params": [
+					[
+						"zone",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		}
+	},
+	"DateTime": {
+		"get maxDate()": {
+			"Syntax": "**.get maxDate**() : Date",
+			"Params": [
+				[
+					"",
+					"Date",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addSeconds()": {
+			"Syntax": "**.addSeconds**( *seconds* : Integer )",
+			"Params": [
+				[
+					"seconds",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"addMinutes()": {
+			"Syntax": "**.addMinutes**( *minutes* : Integer )",
+			"Params": [
+				[
+					"minutes",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get startAndEndOfWeek()": {
+			"Syntax": "**.get startAndEndOfWeek**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addHours()": {
+			"Syntax": "**.addHours**( *hours* : Integer )",
+			"Params": [
+				[
+					"hours",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"addYears()": {
+			"Syntax": "**.addYears**( *years* : Integer )",
+			"Params": [
+				[
+					"years",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get IsLeapYear()": {
+			"Syntax": "**.get IsLeapYear**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get minDate()": {
+			"Syntax": "**.get minDate**() : Date",
+			"Params": [
+				[
+					"",
+					"Date",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addMonths()": {
+			"Syntax": "**.addMonths**( *months* : Integer )",
+			"Params": [
+				[
+					"months",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"toLongTimeString()": {
+			"Syntax": "**.toLongTimeString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get isDaylightSavingTime()": {
+			"Syntax": "**.get isDaylightSavingTime**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toShortTimeString()": {
+			"Syntax": "**.toShortTimeString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get unixEpoch()": {
+			"Syntax": "**.get unixEpoch**() : Date",
+			"Params": [
+				[
+					"",
+					"Date",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get hour()": {
+			"Syntax": "**.get hour**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toLongDateString()": {
+			"Syntax": "**.toLongDateString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addDays()": {
+			"Syntax": "**.addDays**( *days* : Integer )",
+			"Params": [
+				[
+					"days",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get dayOfWeek()": {
+			"Syntax": "**.get dayOfWeek**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get minute()": {
+			"Syntax": "**.get minute**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toShortDateString()": {
+			"Syntax": "**.toShortDateString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toISO()": {
+			"Syntax": "**.toISO**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get month()": {
+			"Syntax": "**.get month**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get second()": {
+			"Syntax": "**.get second**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get day()": {
+			"Syntax": "**.get day**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toUTC()": {
+			"Syntax": "**.toUTC**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"now()": {
+			"Syntax": "**.now**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get year()": {
+			"Syntax": "**.get year**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"timeZone": {
+			"Syntax": "timeZone : cs.DateTimeUtils.TimeZone"
+		},
+		"time": {
+			"Syntax": "time : Time"
+		},
+		"date": {
+			"Syntax": "date : Date"
+		}
+	},
+	"TimeZone": {
+		"toUTC()": {
+			"Syntax": "**.toUTC**( *date* : Date; *time* : Time ) : cs.DateTimeUtils.DateTime",
+			"Params": [
+				[
+					"date",
+					"Date",
+					"->"
+				],
+				[
+					"time",
+					"Time",
+					"->"
+				],
+				[
+					"",
+					"cs.DateTimeUtils.DateTime",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getOffset()": {
+			"Syntax": "**.getOffset**( *date* : Date ) : Text",
+			"Params": [
+				[
+					"date",
+					"Date",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"dateTimeWithOffset()": {
+			"Syntax": "**.dateTimeWithOffset**( *date* : Date; *time* : Time ) : Text",
+			"Params": [
+				[
+					"date",
+					"Date",
+					"->"
+				],
+				[
+					"time",
+					"Time",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get current()": {
+			"Syntax": "**.get current**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"UTC": {
+			"Syntax": "UTC : Object"
+		}
+	}
+}
