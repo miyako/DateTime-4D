@@ -1,0 +1,17 @@
+{
+  "name": "DateTime-4D",
+  "description": "4D component for handling date-time values as a single value",
+  "author": [
+    "Fabrice Mainguené <Fabrice.Mainguene@4d.com>"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/fabrice-mainguene/DateTimeComponent-4D",
+  "version": "21.0.0",
+  "tool": {
+    "platform": "macos",
+    "branch": "21.x",
+    "version": "21.2",
+    "build": "latest",
+    "arch": "arm"
+  }
+}
