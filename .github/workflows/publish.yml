@@ -26,7 +26,7 @@ on:
           required: true
 
 env: 
-  project_path: DateTime-4D/Project/DateTimeComponent.4DProject
+  project_path: DateTime-4D/Project/DateTime-4D.4DProject
   
 jobs:
 
