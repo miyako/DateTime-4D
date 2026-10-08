@@ -6,7 +6,7 @@
   ],
   "license": "MIT",
   "repository": "https://github.com/fabrice-mainguene/DateTimeComponent-4D",
-  "version": "21.0.1",
+  "version": "21.0.2",
   "tool": {
     "platform": "macos",
     "branch": "21.x",
